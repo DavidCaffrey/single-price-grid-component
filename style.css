@@ -154,9 +154,6 @@ main {
 }
 
 @media (min-width: 700px) {
-  /* .container {
-    padding-left: 25%;
-  } */
   .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
