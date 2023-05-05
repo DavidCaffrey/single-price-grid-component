@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 :root{
-  /* Colors */
+/* Colors */
 
 /* Primary */
 
@@ -19,9 +19,68 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+}
+
 body{
   font-family: 'Karla', sans-serif;
+  padding: 1rem;
+  background-color: hsl(209,41%,88%);
 }
+
+.container{
+  height: 100vh;
+}
+
+.community{
+  background-color: #fff;
+}
+
+.header-community{
+  color:var(--primary-cyan);
+}
+
+.sub-heading-coummunity{
+  color:var(--primary-bright-yellow);
+}
+
+.community-text{}
+
+.subscription{
+  background-color: var(--primary-cyan);
+}
+
+.header-subscription{
+  color:#fff;
+}
+
+.price{
+  color:var(--light-grey);
+}
+
+.price-per-month{
+  color:#fff;
+  font-weight: 700;
+}
+
+.price-per-day{}
+
+.signup{}
+
+.why-us{
+  background-color: hsl(179, 46%, 51%);
+}
+
+.header-why-us{
+  color:#fff;
+}
+
+.join{}
+
+.join-list{
+  text-decoration: none;
+  color:var(--light-grey);
+}
+
 
 .attribution {
   font-size: 11px;
