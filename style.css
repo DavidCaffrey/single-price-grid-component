@@ -1,91 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-
-:root{
-/* Colors */
-
-/* Primary */
-
---primary-cyan: hsl(179, 62%, 43%);
---primary-bright-yellow: hsl(71, 73%, 54%);
-
-/* Neutral */
-
---light-grey: hsl(204, 43%, 93%);
---greyish-blue: hsl(218, 22%, 67%);
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  /* Colors */
+  /* Primary */
+  --primary-cyan: hsl(179, 62%, 43%);
+  --primary-bright-yellow: hsl(71, 73%, 54%);
+  /* Neutral */
+  --light-grey: hsl(204, 43%, 93%);
+  --greyish-blue: hsl(218, 22%, 67%);
 }
 
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-body{
-  font-family: 'Karla', sans-serif;
+body {
+  font-family: "Karla", sans-serif;
   padding: 1rem;
-  background-color: hsl(209,41%,88%);
+  background-color: hsl(209, 41%, 88%);
 }
 
-.container{
-  height: 100vh;
+.container {
+  min-height: 100vh;
 }
 
-.community{
+.card {
+  /* padding: 1rem; */
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.74);
+}
+
+.community {
   background-color: #fff;
+  padding: 1rem;
 }
 
-.header-community{
-  color:var(--primary-cyan);
+.header-community {
+  color: var(--primary-cyan);
+  margin-bottom: 1rem;
 }
 
-.sub-heading-coummunity{
-  color:var(--primary-bright-yellow);
+.sub-heading-coummunity {
+  color: var(--primary-bright-yellow);
+  margin-bottom: 1rem;
 }
 
-.community-text{}
+.community-text {
+  margin-bottom: 1rem;
+  color: var(--greyish-blue);
+}
 
-.subscription{
+.subscription {
   background-color: var(--primary-cyan);
+  padding: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
-.header-subscription{
-  color:#fff;
+.header-subscription {
+  color: #fff;
+  margin-bottom: 1.5rem;
 }
 
-.price{
-  color:var(--light-grey);
+.price {
+  color: var(--light-grey);
+  margin-bottom: 1rem;
 }
 
-.price-per-month{
-  color:#fff;
+.price-per-month {
+  color: #fff;
   font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.price-per-day{}
+.price-per-day {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
 
-.signup{}
+.signup {
+  background-color: var(--primary-bright-yellow);
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
 
-.why-us{
+.why-us {
   background-color: hsl(179, 46%, 51%);
+  padding: 1rem;
 }
 
-.header-why-us{
-  color:#fff;
+.header-why-us {
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
-.join{}
-
-.join-list{
-  text-decoration: none;
-  color:var(--light-grey);
+.join {
+  margin-bottom: 1rem;
 }
 
+.join-list {
+  list-style-type: none !important;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
